@@ -1,0 +1,9 @@
+.container-16x9{
+    position: relative;
+    padding-top:56.25%;
+}
+video{
+    width:100%;
+    position: absolute;
+    top:0
+}

@@ -1,0 +1,14 @@
+.up{
+    animation:upIn 1s ease forwards;
+    animation-delay: calc(var(--order)*100ms);
+}
+i{  
+    display: inline-block;
+    background-color: brown;
+    width:20px;
+    height: 20px;
+}
+@keyframes upIn {
+    from {transform: translateY(500px);}
+    to {transform: translateY(0);}
+}
